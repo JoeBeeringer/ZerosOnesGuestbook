@@ -1,4 +1,4 @@
-package de.zero.ones.answerobject;
+package de.zeros.ones.answerobject;
 
 public class GuestBookAnswer {
 

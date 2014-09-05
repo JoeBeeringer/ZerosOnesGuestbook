@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.hibernate.Session;
 
-import de.zero.ones.answerobject.GuestBookAnswer;
+import de.zeros.ones.answerobject.GuestBookAnswer;
 import de.zeros.ones.exceptions.GuestBookListEmptyException;
 import de.zeros.ones.guestbook.GuestBookOptions;
 import de.zeros.ones.helper.DateHelper;
