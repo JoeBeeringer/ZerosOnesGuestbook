@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 04.09.2014 09:43:51 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="de.zeros.ones.model.Guestbook" table="guestbook" catalog="zeros_ones">
+        <id name="id" type="java.lang.Long">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="author" type="string">
+            <column name="author" not-null="true" />
+        </property>
+        <property name="comment" type="string">
+            <column name="comment" not-null="true" />
+        </property>
+        <property name="date" type="long">
+            <column name="date" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
